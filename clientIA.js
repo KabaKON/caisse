@@ -22,3 +22,4 @@ if ( total <= budget) {
 } else {
     console.log("Budget insuffisant");
 }
+ console.log ("");

@@ -4,9 +4,9 @@ let quantite_cahiers = 4;
 let prix_stylo = 500;
 let quantite_stylo = 3;
 
-let montant_cahiers = prix_cahier * quantite_cahier;
+let montant_cahiers = prix_cahier * quantite_cahiers;
 let montant_stylos = prix_stylo * quantite_stylo;
-let total = montant_cahiers + montant_stylo;
+let total = montant_cahiers + montant_stylos;
 
 
 console.log("=====CAISSE =====");
@@ -16,7 +16,7 @@ console.log("Total : ", total, "FCFA");
 console.log("Budget : ", budget_client, "FCFA");
 
 
-if ( total <= budget) {
+if ( total <= budget_client) {
     console.log( "Budget suffisant");
 
 } else {
@@ -25,6 +25,6 @@ if ( total <= budget) {
  console.log ("");
 
 
- for (let i = 1; i <= 5; i++); {
+ for (let i = 1; i <= 5; i++){
     console.log ("Achat numéro ", i);
 }

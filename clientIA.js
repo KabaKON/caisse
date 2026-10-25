@@ -14,3 +14,11 @@ console.log("Cahiers : ", montant_cahiers, "FCFA");
 console.log("Stylo : ", montant_stylos, "FCFA");
 console.log("Total : ", total, "FCFA");
 console.log("Budget : ", budget_client, "FCFA");
+
+
+if ( total <= budget) {
+    console.log( "Budget suffisant");
+
+} else {
+    console.log("Budget insuffisant");
+}
